@@ -4,10 +4,10 @@ cabal-version:      3.14
 name:               family
 version:            0.2.0.0
 synopsis:           Family stuff
-homepage:           https://github.com/danwdart/family
+homepage:           https://github.com/emberdart/family
 license:            AGPL-3.0-only
-author:             Dan Dart
-maintainer:         cabal@dandart.co.uk
+author:             Ember Dart
+maintainer:         cabal@emberdart.co.uk
 category:           Genealogy
 extra-doc-files:    CHANGELOG.md
 build-type:         Simple

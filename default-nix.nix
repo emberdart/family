@@ -1,5 +1,5 @@
 { nixpkgs ? import <nixpkgs> {},
-  haskell-tools ? import (builtins.fetchTarball "https://github.com/danwdart/haskell-tools/archive/master.tar.gz") {
+  haskell-tools ? import (builtins.fetchTarball "https://github.com/emberdart/haskell-tools/archive/master.tar.gz") {
     inherit nixpkgs;
     inherit compiler;
   },
@@ -17,7 +17,7 @@ let
 
       # Release to cabal not yet made
       gedcom = lib.doJailbreak (self.callCabal2nix "gedcom" (nixpkgs.fetchFromGitHub {
-        owner = "danwdart";
+        owner = "emberdart";
         repo = "hs-gedcom";
         rev = "901c7f611381cfb7a59e5cc2e0327adc04ae4d65";
         sha256 = "fLP69x++nzkAwWAtaWWfL84AvfIDMW7bX+/z148n7f4=";
